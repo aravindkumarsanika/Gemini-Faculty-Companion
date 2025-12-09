@@ -14,6 +14,8 @@ public class LoginRequest {
 
     private String email;
     private String password;
+    private String role;
+    private String adminCode;
 
     // Constructors
     public LoginRequest() {
@@ -35,6 +37,22 @@ public class LoginRequest {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public String setRole(String role) {
+        return role;
+    }
+
+    public String getAdminCode() {
+        return adminCode;
+    }
+
+    public String setAdminCode(String adminrole) {
+        return adminCode;
     }
 
     public void setPassword(String password) {
